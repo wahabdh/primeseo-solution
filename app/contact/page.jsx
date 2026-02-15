@@ -93,7 +93,7 @@ export default function Contact() {
             <div className="lg:col-span-2">
               <div className="bg-white border border-border rounded-lg p-8">
                 <h2 className="text-3xl font-bold text-foreground mb-8">
-                  Send us a Message
+                  CONTACT US!
                 </h2>
 
                 {submitted ? (
