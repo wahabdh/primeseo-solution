@@ -94,19 +94,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-5xl font-bold text-accent mb-2">500+</div>
+              <div className="text-5xl font-bold text-accent mb-2">30+</div>
               <p className="text-gray-400">Projects Completed</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-accent mb-2">98%</div>
+              <div className="text-5xl font-bold text-accent mb-2">85%</div>
               <p className="text-gray-400">Client Satisfaction</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-accent mb-2">10M+</div>
+              <div className="text-5xl font-bold text-accent mb-2">2M+</div>
               <p className="text-gray-400">Organic Traffic Generated</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-accent mb-2">8+</div>
+              <div className="text-5xl font-bold text-accent mb-2">4.5+</div>
               <p className="text-gray-400">Years of Experience</p>
             </div>
           </div>
