@@ -115,62 +115,64 @@ export default function Services() {
           <h2 className="text-4xl font-bold text-center text-foreground mb-16">
             Simple, Transparent Pricing
           </h2>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Basic Plan */}
+
+            {/* Starter Plan */}
             <div className="bg-white border-2 border-border rounded-lg p-8">
               <h3 className="text-2xl font-bold text-foreground mb-2">Starter</h3>
               <p className="text-muted-foreground mb-6">For small businesses</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-primary">$499</span>
+                <span className="text-4xl font-bold text-primary">$100</span>
                 <span className="text-muted-foreground">/month</span>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Keyword research
+                  <span className="text-accent mr-3">✓</span> Keyword research
                 </li>
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  On-page SEO
+                  <span className="text-accent mr-3">✓</span> On-page SEO
                 </li>
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Monthly reports
+                  <span className="text-accent mr-3">✓</span> Monthly reports
                 </li>
               </ul>
-              <button className="w-full border-2 border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition">
+              <Link
+                href="/contact?plan=starter"
+                className="w-full block text-center border-2 border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition"
+              >
                 Get Started
-              </button>
+              </Link>
             </div>
 
             {/* Professional Plan */}
-            <div className="bg-white border-2 border-primary rounded-lg p-8 md:scale-105">
-              <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-4 py-1 rounded-bl text-sm font-semibold -translate-y-full">
+            <div className="bg-white border-2 border-primary rounded-lg p-8 md:scale-105 relative">
+              <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-4 py-1 rounded-bl text-sm font-semibold">
                 Most Popular
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-2">Professional</h3>
               <p className="text-muted-foreground mb-6">For growing businesses</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-primary">$999</span>
+                <span className="text-4xl font-bold text-primary">$250</span>
                 <span className="text-muted-foreground">/month</span>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Everything in Starter
+                  <span className="text-accent mr-3">✓</span> Everything in Starter
                 </li>
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Link building
+                  <span className="text-accent mr-3">✓</span> Link building
                 </li>
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Content strategy
+                  <span className="text-accent mr-3">✓</span> Content strategy
                 </li>
               </ul>
-              <button className="w-full bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition">
+              <Link
+                href="/contact?plan=professional"
+                className="w-full block text-center bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+              >
                 Get Started
-              </button>
+              </Link>
             </div>
 
             {/* Enterprise Plan */}
@@ -182,25 +184,23 @@ export default function Services() {
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Everything in Professional
+                  <span className="text-accent mr-3">✓</span> Everything in Professional
                 </li>
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Dedicated account manager
+                  <span className="text-accent mr-3">✓</span> Dedicated account manager
                 </li>
                 <li className="flex items-center text-foreground">
-                  <span className="text-accent mr-3">✓</span>
-                  Custom solutions
+                  <span className="text-accent mr-3">✓</span> Custom solutions
                 </li>
               </ul>
               <Link
-                href="/contact"
+                href="/contact?plan=enterprise"
                 className="w-full block text-center border-2 border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition"
               >
                 Contact Sales
               </Link>
             </div>
+
           </div>
         </div>
       </section>
