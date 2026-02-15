@@ -92,7 +92,7 @@ export default function Contact() {
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <div className="bg-white border border-border rounded-lg p-8">
-                <h2 className="text-3xl font-bold text-centermb-8">
+                <h2 className="text-3xl font-bold text-center mb-8">
                   CONTACT US!
                 </h2>
 
