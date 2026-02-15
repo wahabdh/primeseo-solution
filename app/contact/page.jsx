@@ -168,7 +168,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="03050000000"
                       />
                     </div>
 
@@ -225,8 +225,8 @@ export default function Contact() {
                   Phone
                 </h3>
                 <p className="text-muted-foreground">
-                  <a href="tel:+15551234567" className="hover:text-primary transition">
-                    +1 (555) 123-4567
+                  <a href="tel:03050000000" className="hover:text-primary transition">
+                    +92 (0303) 5736160
                   </a>
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">
@@ -242,10 +242,10 @@ export default function Contact() {
                 </h3>
                 <p className="text-muted-foreground">
                   <a
-                    href="mailto:info@primeseo.com"
+                    href="mailto:solutionsprime.seo@gmail.com"
                     className="hover:text-primary transition"
                   >
-                    info@primeseo.com
+                    solutionsprime.seo@gmail.com
                   </a>
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">
@@ -260,11 +260,11 @@ export default function Contact() {
                   Address
                 </h3>
                 <p className="text-muted-foreground">
-                  123 SEO Street
+                  Sector I-12 IJP Road
                   <br />
-                  Tech City, TC 12345
+                  Islamabad
                   <br />
-                  United States
+                  Pakistan
                 </p>
               </div>
 
